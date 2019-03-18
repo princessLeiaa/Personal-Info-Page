@@ -1,0 +1,134 @@
+	body {
+		
+		min-width:600px;
+	}
+	
+	ul{
+		list-style:none;
+	}
+	
+	li{
+		display: inline-block;
+		padding:0 25px;	
+	}
+
+	.nav {
+		background-color:#cfd0d0;
+		height:125px;
+	}
+	.logo{
+		float:left;
+	}
+
+	.container{
+		margin: auto;
+		max-width:960px;
+		width:100%;
+	}
+
+	.menu{
+		color:#fff;
+		float:right;
+		padding-top:60px;
+	}
+	.menu > li{
+		font-size:30px;
+		padding:0 10px 0 0;	
+	}
+
+	header{
+		background-image:url('../images/bloom_tulip5.png');
+		background-color:#eced96;
+		background-repeat: no-repeat;
+		background-position: 50% 50%;
+		background-size: auto 100%;
+		margin: 25px auto;
+		min-width:900px;
+	}
+
+	header > div {
+		display: block;
+		color: #4c6666;
+		margin-left: auto;
+		margin-right: auto;
+		height: 600px;
+		width: 900px;
+		padding:40px;
+	}
+
+	h1{
+		font-size:30pt;
+	}
+
+	h2{
+		text-align: center;
+		font-family: Open Sans,Helvetica Neue,Segoe UI,Arial,Helvetica,sans-serif;
+	}
+
+	header > div >p{
+		width: 600px;
+		float:left;
+		font-size:15pt;
+	}
+	
+	/* .center{
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	} */
+
+	.section-header{
+		margin: auto;
+		text-align: center;
+	}
+
+	.icon{
+		display: inline-block;
+		margin: 10px;
+	}
+	
+	.title{
+		color: #4c6666;
+		display: inline;
+		font-size: 40px;
+		font-weight: 500;
+		font-family: Open Sans,Helvetica Neue,Segoe UI,Arial,Helvetica,sans-serif;
+		vertical-align: super;
+	}
+
+	/* section > .container{
+		height: 400px;
+		margin: auto;
+		max-width:960px;
+		width:100%;
+	}  */
+	
+	.work{
+		padding: 20px; 
+	}
+
+	.work > .container > ul {
+		text-align: center;
+	}
+
+	.play{
+		background-color: beige;
+		padding: 20px;
+	}
+
+	.play > .container > ul {
+		text-align: center;
+	}
+
+	.about{
+		padding: 20px;
+	}
+
+	.contact{
+		background-color: beige;
+		padding: 20px;
+	}
+
+	/* p{
+		width: 900px;
+	} */
