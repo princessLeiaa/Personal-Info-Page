@@ -20,10 +20,10 @@
 		</div>
 
 		<ul class="menu">
-				<li>Work</li>
-				<li>Play</li>
-				<li>About</li>
-				<li>Contact</li>
+				<li><a href="#work">Work</a></li>
+				<li><a href="#play">Play</a></li>
+				<li><a href="#about">About</a></li>
+				<li><a href="#contact">Contact</a></li>
 		</ul>
 
 	</div>
@@ -31,16 +31,16 @@
 
 <header>
 	<div>
-	<h1> Hello everyone!! I'am Stella and this is my portfolio!! Enjoy!!</h1>
+	<h1> Hello everyone!! I'am Stella.<br> An independent front-end developer & UI designer in Athens, Greece.</h1>
 	<p>
-		A creative and responsible graduate of Graphic Art Technology, seeking an
-		entry-level position in Front-end Development where i can utilize my
-		skills of graphic design and knowledge of programming. With strong 
-		organisational skills in a variety of situations to achieve deadlines.
+		I love to collaborate with other passionate developers and designers on exciting projects.<br>
+		My dream is to create innovative application designs and solve challenging interface problems.
+
 	</p>
 	<div>
 </header>
 
+<a id='work'></a>
 <section class="work">
 	<div class="section-header">
 		<div class="icon">
@@ -52,16 +52,14 @@
 	</div>
 	<div class="container">
 		<p>
-		I made my first website back in 2004 as Graphic Designer student 
-		at Technological Educational Institute of Athens and I've been 
-		hooked ever since. This firts site was made with Dreamweaver Adobe. 
-		You can see my work in the link below. After that i tried to remake 
-		this particular site to be more code correct. You can see my work 
-		in GIT.. Thnaks!
+			I love learning from other people and seeing how they create their work. 
+			If you're this type of person as well, feel free to check out the code for theese sites on Github. 
+			If you learn something, that's great. If you can teach me something, even better!
+			.. Thanks!
 		</p>
 		<ul>
-			<li><img src="assets/images/foto1.jpg"/> </li>
-			<li><img src="assets/images/foto2.jpg"/> </li>
+			<li class="image-container" id="image1"><a href="file:///C:/Users/stepa/Documents/GitHub/ekmous/index.html"><img src="assets/images/work11.png"/></a> </li>
+			<li class="image-container" id="image2"><a href="https://github.com/princessLeiaa/Personal-Info-Page"><img src="assets/images/work2.png"/></a> </li>
 		</ul>
 		
 		
@@ -69,6 +67,7 @@
 	
 </section>
 
+<a id='play'></a>
 <section class="play">
 	<div class="section-header">
 		<div class="icon">
@@ -87,12 +86,13 @@
 		consequat.
 		</p>
 		<ul>
-			<li><img src="assets/images/foto1.jpg"/> </li>
-			<li><img src="assets/images/foto2.jpg"/> </li>
+			<li class="image-container" id="image1"><img src="assets/images/work-in-progress.png"/></a> </li>
+			<li class="image-container" id="image2"><img src="assets/images/work-in-progress.png"/></a> </li>
 		</ul>	
 	</div>
 </section>
 
+<a id='about'></a>
 <section class="about">
 	<div class="section-header">
 		<div class="icon">
@@ -103,19 +103,18 @@
 		</div>
 	</div>
 	<div class="container">
-		<p>
-		Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-		sed do eiusmod tempor incididunt ut labore et dolore
-		magna aliqua. Ut enim ad minim veniam, quis nostrud
-		exercitation ullamco laboris nisi ut aliquip ex ea commodo
-		consequat. Duis aute irure dolor in reprehenderit in
-		voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-		Excepteur sint occaecat cupidatat non proident,
-		sunt in culpa qui officia deserunt mollit anim id est laborum.
-		</p>
+		<div class="text">
+			<p>
+				I am a creative and responsible graduate of Graphic Art Technology, seeking an entry-level position in Front-end Development 
+				where i can utilize my skills of graphic design and knowledge of programming. 
+				With strong organisational skills in a variety of situations to achieve deadlines.
+			</p>
+		</div>
+		<img src="assets/images/stella.jpg" class="photo-finish"/>
 	</div>
 </section>
 
+<a id='contact'></a>
 <section class="contact">
 	<div class="section-header">
 		<div class="icon">
@@ -125,21 +124,76 @@
 			Contact
 		</div>
 	</div>
-	<div class="container">
-		<p>
-		Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-		sed do eiusmod tempor incididunt ut labore et dolore
-		magna aliqua. Ut enim ad minim veniam, quis nostrud
-		exercitation ullamco laboris nisi ut aliquip ex ea commodo
-		consequat. Duis aute irure dolor in reprehenderit in
-		voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-		Excepteur sint occaecat cupidatat non proident,
-		sunt in culpa qui officia deserunt mollit anim id est laborum.
-		</p>
+	<div class="container" id="contact-bucket">
+
+		<div class="contact-container">
+			<h3>Feel free to contact with me:</h3> 
+			
+			email: <a href="mailto:papageorgiou_ste@hotmail.com">papageorgiou_ste@hotmail.com </a><br>
+
+			<form action="mailto:ek.programmata@hotmail.com" method="post" enctype="text/plain">
+				<i class="fa fa-user" aria-hidden="true"></i> Name:<br> 
+				<input type="text" name="name" placeholder="Enter Name"><br>
+				<i class="fa fa-envelope" aria-hidden="true"></i> E-mail:<br> 
+				<input type="text" name="mail" placeholder="Enter Email"><br>
+				<i class="fa fa-comment" aria-hidden="true"></i> Message::<br> 
+				<textarea rows="4" cols="50" name="comment" form="usrform">Type Your Message</textarea><br>
+				<br><input type="submit" value="Αποστολή">
+			</form>
+		</div>
+
+		<div class="social">
+		
+			<a href="https://github.com/princessLeiaa/Personal-Info-Page"><img src="assets/images/git.png" alt="GitHub"/></a>
+			<a href="https://www.linkedin.com/in/stella-papageorgiou/"><img src="assets/images/in.png" alt="LinkedIn"/></a>
+			<a href="mailto:papageorgiou_ste@hotmail.com"><img src="assets/images/mail.png" alt="E-mail"/></a>
+			<a href="https://github.com/princessLeiaa/Personal-Info-Page"><img src="assets/images/git.png" alt="GitHub"/></a>
+		
+		</div>	
+		<div class="button">
+			<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+		</div>
 	</div>
+	
 </section>
 
 
-
+<footer>
+	<div id="copyright"> 
+		Copyright © 2018. All rights reserved 
+	</div>
+</footer>
+<!-- <script>
+	window.onscroll = function() {myFunction()};
+	
+	var header = document.getElementById("myNav");
+	var sticky = header.offsetTop;
+	
+	function myFunction() {
+	  if (window.pageYOffset > sticky) {
+		header.classList.add("sticky");
+	  } else {
+		header.classList.remove("sticky");
+	  }
+	}
+</script> -->
+<script>
+		// When the user scrolls down 20px from the top of the document, show the button
+		window.onscroll = function() {scrollFunction()};
+		
+		function scrollFunction() {
+		  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+			document.getElementById("myBtn").style.display = "block";
+		  } else {
+			document.getElementById("myBtn").style.display = "none";
+		  }
+		}
+		
+		// When the user clicks on the button, scroll to the top of the document
+		function topFunction() {
+		  document.body.scrollTop = 0;
+		  document.documentElement.scrollTop = 0;
+		}
+		</script>
 </body>
 </html>
