@@ -1,8 +1,14 @@
 body {
 	margin: 0px;
 	min-width:600px;
-}
+	position: absolute;
 
+}
+@media screen and (min-width: 1080px){
+	body{
+		width: 100%;
+	}
+}
 ul{
 	list-style:none;
 }
@@ -89,7 +95,7 @@ li>a{
 }
 
 header{
-	background-image:url('../images/bloom_tulip5.png');
+	background-image:url('../images/bloom_tulip.png');
 	background-repeat: no-repeat;
 	background-position: 50% 50%;
 	background-size: 100% 100%;
