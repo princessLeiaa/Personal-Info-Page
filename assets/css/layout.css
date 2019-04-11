@@ -29,6 +29,7 @@ li>a{
 	position: fixed;
 	top: 0;
 	width: 100%;
+	z-index: 1;
 }
 
 
@@ -111,7 +112,6 @@ header{
     vertical-align: middle;
     padding: 2px;
     transform: rotate(7deg)
-
 }
 
 .text{
