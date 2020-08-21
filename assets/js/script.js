@@ -12,7 +12,7 @@ function startGame2() {
         console.log(clickedTd)
         myData[i].onclick = function() {
             if (clickedTd == '') {
-                this.style.boxShadow = "0px 0px 10px 5px rgba(127,221,250,0.55)";
+                this.style.boxShadow = "0px 0px 10px 5px rgba(127,221,250,0.85)";
                 clickedTd = this //set clickedTd
             } else {
                 let temptd = this.innerHTML;
